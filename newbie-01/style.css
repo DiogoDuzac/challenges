@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Outfit', sans-serif ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+main {
+    width: 1000px;
+    background-color: hsl(212, 45%, 89%);
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.247);   
+}
+
+
+div.container {
+    max-width: 350px;
+    margin: auto;
+}
+
+div.card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}   
+
+div.card > img {
+    width: 100%;
+    border-radius: 15px ;
+}
+
+div.text > h2 {
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: hsl(218, 44%, 22%);
+    text-shadow: 
+    1px 1px 2px rgba(0, 0, 0, 0.247);
+}
+
+div.text > p {
+    margin-top: 10px;
+    color: hsl(240, 0%, 56%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > a:hover {
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(77, 77, 255, 0.247);
+}
+
+

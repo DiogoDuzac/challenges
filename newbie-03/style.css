@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan-: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+   font-family: "outfit", sans-serif;
+   font-size: 18px;
+   background-color:var(--main-bg);
+   color: hsl(0, 0%, 100%, 60%);
+   padding: 20px;
+
+}
+
+div.container {
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+}
+
+div.container .main-image  {
+   position: relative;
+}
+
+div.container .main-image div {
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 60%);
+    top: 0px;
+    width: 100%;
+    height: 98%;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+div.container .main-image div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div.container .main-image div img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.container h2 {
+    font-weight: bolder;
+    color: var(--White);
+}
+
+div.container h2:hover {
+    color: var(--Cyan-);
+    cursor: pointer;
+}
+
+div.container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--line);
+}
+
+div.container ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+div.container  ul  li:first-child {
+    color: var(--Cyan-);
+}
+
+
+div.container ul li img {
+    margin-right: 5px;
+}
+
+.container .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+}
+
+.container .avatar img {
+    width: 3.5rem;
+    margin-top: 10px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container .avatar p span {
+    color: white;
+    font-weight: bolder;
+}
+
+.container .avatar p span:hover {
+    color: var(--Cyan-);
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+@media (min-width: 500px) {
+    .container {
+        width: 350px;
+        margin: 0 auto ;
+    }
+}
