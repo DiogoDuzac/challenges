@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.card > div {
+    width: 370px;
+    padding: 20px;
+    height: 500px;
+
+}
+
+.card > .card1 {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+.card > .card2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+
+.card > .card3{
+    background-color:  hsl(179, 100%, 13%);
+      
+}
+
+.card img {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.card h1 {
+    color: hsl(0, 0%, 95%);
+    padding: 20px 20px 20px 0;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: sans-serif;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    
+}
+
+
