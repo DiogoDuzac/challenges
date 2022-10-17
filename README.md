@@ -21,4 +21,6 @@ Newbie-08: https://diogoduzac.github.io/challenges/newbie-08/
 
 Newbie-09: https://diogoduzac.github.io/challenges/newbie-09/ 
 
-Newbie-10: https://diogoduzac.github.io/challenges/newbie-10/ 
+Newbie-10: https://diogoduzac.github.io/challenges/newbie-10/ [
+
+Newbie-10: https://diogoduzac.github.io/challenges/newbie-11/ [
