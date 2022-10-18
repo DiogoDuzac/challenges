@@ -1,6 +1,12 @@
 @charset  "UTF-8";
 
-@media screen and (min-width: 450px) and (max-width: 815px){
+@media screen and (min-width: 450px) and (max-width: 1024px){
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;    
+    }
     main {
         max-width: 800px;
         margin: 1rem;
@@ -28,4 +34,39 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+}
+
+@media  screen and (min-width: 1024px) {
+    header .title{
+        font-size: 30px;
+    }
+
+    header .subtitle {
+        font-size: 30px;
+    }
+
+    header .paragraph {
+        font-weight: 500;
+        font-size: large;
+    }
+
+
+    .cards {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+   ul {
+        display: flex;
+        gap: 2rem;
+        margin: auto;
+   }
+
+   .card {
+        width: 200px;
+   }
+
+
 }
