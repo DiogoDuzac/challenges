@@ -34,7 +34,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 3rem auto;
+    margin: auto;
 
     max-width: 300px;
     width: 100vw;
@@ -107,7 +107,7 @@ h3 {
     color: hsl(0, 0%, 100%);
     font-size: small;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 
