@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* ------------RESET------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*---------------MOBILE FIRST---------------- */
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
