@@ -28,7 +28,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 2rem auto;
     border-radius: 1rem;
 }
