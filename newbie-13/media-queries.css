@@ -21,6 +21,9 @@
         height: 50px;    
     }
 
+    .main-image {
+        padding: 0px;
+    }
     .main-image img {
        width: 100%;
     }

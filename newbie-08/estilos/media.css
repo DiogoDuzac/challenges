@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 680px) and (max-width: 1440px){
+@media (min-width: 700px) and (max-width: 1440px){
     .wrap {
         display: flex;
         justify-content: center;
