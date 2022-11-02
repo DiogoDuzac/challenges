@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+@media  screen and (max-width: 600px) {
+    .cabecalho {
+        padding: 0px 10px;
+    }
+
+    .main {
+        padding: 0px 10px;
+    }
+
+    form .mail {
+        width: 60%;
+    }
+
+    form .submit {
+        margin-top: 25px;
+        width: 60%;
+    }
+
+    .main-image img {
+       width: 60vw;
+    }
+}

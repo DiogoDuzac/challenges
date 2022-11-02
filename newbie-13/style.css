@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;  
+}
+
+/*---------------- HEADER------------------ */
+.cabecalho {
+    max-width: 1100px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.image {
+   margin: 45px auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+.cabecalho h1  {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.cabecalho h1 > span {
+    color: hsl(209, 33%, 12%);
+    font-weight: 900;
+}
+
+.cabecalho .subtitle {
+    color: hsl(209, 33%, 12%);
+    margin-bottom: 25px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+form .mail {
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 59%);
+    outline: none;
+    min-width: 300px;
+}
+
+form .mail::placeholder {
+    color: hsl(0, 0%, 59%);
+}
+
+form .submit {
+    padding: 17px;
+    border-radius: 25px;
+    width: 180px;
+    border: none;
+    margin-left: 10px;
+    background-color:  hsl(223, 87%, 63%);
+    color: white;
+    /* box-shadow: 0px 0px 40px hsla(223, 87%, 63%, 0.295); */
+}
+
+form .submit:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 40px hsla(223, 87%, 63%, 0.295);
+}
+
+/*--------MAIN----------------- */
+
+.main-image  {
+    margin: auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+.main-image img {
+    max-width: 500px;
+}
+
+/* -----FOOTER-----  */
+
+.footer {
+    max-width: 1100px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.list-icon li img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.footer > p {
+    font-size: small;
+    text-align: center;
+    color:hsl(0, 0%, 59%);
+    margin-bottom: 20px;
+}
