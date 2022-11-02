@@ -17,87 +17,88 @@
 }
 
 body {
-    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(210, 46%, 95%)
 }
+
 main {
+    height: 100%;
+    margin: auto;
     display: flex;
-    max-width: 90vw;
     align-items: center;
     justify-content: center;
-    font-family: 'Manrope', sans-serif;
-    margin: 1rem;
+    background-color:  hsl(210, 46%, 95%);
 }
 
 .container {
-    width: 20rem;
-    margin: 1rem 0;
+    display: flex;
+    max-width: 700px;
+    height: 260px;
+    margin: auto;
+    border-radius: 10px;
 }
 
-.imagem {
-    background-color: white;
-    width: 20rem;
-}
-
-.imagem img {
-    width: 100%;   
+.main-image {
+    width: 40%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .text {
-    padding: .5rem 2rem;
+    padding: 25px 40px;
+    width: 60%;
     background-color: white;
-    margin-bottom: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.title {
-    color: hsl(217, 19%, 35%);
-    margin: .5rem  0rem;
-    margin-right: 2rem;
-    font-size: .9rem;
+.text .title {
+    font-size: larger;
+    font-size: 18px;
+    color:   hsl(217, 19%, 35%);
 }
 
-.subtitle {
-    color: hsl(212, 23%, 69%);
-    font-size: .8rem;
+.text .subtitle {
+    color:  hsl(212, 23%, 69%);
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 1.5;
 }
 
-
-.share {
+.text .footer {
     display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.avatar {
-    width: 30px;
-    height: 30px;
+.footer .person {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
 }
 
-.avatar img {
-    width: 100%;
+.footer .person img {
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    border: 2px solid hsl(217, 19%, 35%);
 }
 
-.content {
-    margin-left: 1.2rem;
-}
-
-.content .name {
+.person .datas .name {
+    font-size: small;
     color: hsl(217, 19%, 35%);
-    letter-spacing: 1.5px;
-    font-size: .8rem;
 }
 
-.content .data {
-    color: hsl(212, 23%, 69%);
-    font-size: .8rem;
+.person .datas .data {
+    font-size:smaller ;
+    color:  hsl(212, 23%, 69%);
 }
 
-
-footer {
-    width: 100%;
-    background-color: bisque;
-    text-align: center;
-}
+ .footer .share img {
+    background-color: hsl(210, 46%, 95%);
+    padding: 7px;
+    border-radius: 50%;
+} 
