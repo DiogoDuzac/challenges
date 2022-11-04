@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 575px){
+@media screen and (max-width: 650px){
+    main {
+        width: 90%;
+    }
 
+    .main-list .card {
+        max-width: 280px;
+        height: 370px;
+    }
+    
+    .main-list{
+        flex-direction: column;
+    }
+
+    .main-list .text {
+        padding-bottom: 0px;
+    }
+
+    .main-list .botao {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .main-list .card:first-child {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    .main-list .card:last-child {
+        border-bottom-right-radius:5px;       
+        border-bottom-left-radius:5px;
+
+        border-top-right-radius:0px;
+    }
 }

@@ -12,78 +12,89 @@
     list-style: none;
 }
 
-/*---------------MOBILE FIRST---------------- */
-
 body {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 main {
-    width: 100%;
-    height: 100%;
+    padding: 20px;
+    max-width: 1100px;
+}
+
+.main-list{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin: 2rem auto;
-    border-radius: 1rem;
 }
 
-.container {
-    padding: 2rem;
-    width: 250px;
-    margin: auto;
-}
-#orange {
-    background-color: hsl(31, 77%, 52%);
+.main-list .card {
+    height: 470px;
+    padding: 30px;
+    max-width: 250px;
 }
 
-#cyan {
-    background-color: hsl(184, 100%, 22%);
-}
-
-#green{
-    background-color: hsl(179, 100%, 13%);
-}
-
-h1 {
-    color: hsl(0, 0%, 95%);
-    text-transform: uppercase;
+.main-list .title {
+    font-size: 33px;
     font-family: 'Big Shoulders Display', cursive;
-    margin: 1.5rem auto;
-    font-size: 30px;
-}
-
-p {
+    text-transform: uppercase;
+    padding: 25px 20px 20px 0px;
     color: hsl(0, 0%, 95%);
-    line-height: 1.6rem;
-    font-size: small;
-    font-weight: 100;
-    margin-bottom: 2rem;
 }
 
-
-span {
-    background-color: hsl(0, 0%, 95%);
-    border-radius: 2rem;
-    text-align: center;
-    font-size: small;
-    padding: .9rem;
+.main-list .text {
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-weight:100;
+    font-size: smaller;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.8;
+    padding: 20px 0px;
+    max-width: 300px;
 }
 
-.learn1 {
-    color:hsl(31, 77%, 52%)
+.main-list .botao {
+    padding:  12px 25px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.learn2 {
+.main-list .orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.main-list .cyan {
     color: hsl(184, 100%, 22%);
 }
 
-.learn3 {
-    color: hsl(179, 100%, 13%);
+.main-list .dark-cyan {
+   color: hsl(179, 100%, 13%);; 
+}
+
+.main-list #one {
+   background-color: hsl(31, 77%, 52%);
+}
+
+.main-list #two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.main-list #three {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.main-list .card:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.main-list .card:last-child {
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
 }
 
